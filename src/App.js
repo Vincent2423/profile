@@ -12,13 +12,11 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route exact path='/' element={<Home />} />
-        </Route>
-
+          <Route exact path='/' element={<Home />} />       
           <Route path='/About' element={<About />} />
           <Route path='/Portfolio' element={<Portfolio />} />
           <Route path='/Contact' element={<Contact />} />
-        
+        </Route>        
       </Routes>
     </>
 
