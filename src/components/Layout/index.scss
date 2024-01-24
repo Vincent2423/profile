@@ -1,0 +1,23 @@
+
+@media only screen and (max-width:1023px){
+    .profile-icon{
+        top:50vh;
+        right : 20vmax;
+    }
+
+  
+  }
+
+  .container{
+    opacity: 0;
+    will-change: contents;
+    animation:fadeIn 1s forwards;
+    animation-delay:1s;
+  }
+
+  .footer{
+    opacity: 0;
+    animation: fadeInRightBig 2s forwards;
+    animation-delay: 1s;
+}
+

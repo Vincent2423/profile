@@ -1,0 +1,75 @@
+ 
+  .fadeout{
+    animation: bounceOut 1s;
+  }
+
+  .fadeIn{
+    animation: fadeIn 3s forwards;
+    animation-delay: 3s;
+  }
+
+  .fadeIn-bottomRight{
+    animation: fadeInBottomRight 2s forwards;
+  }
+  
+  .bounceIn{
+    animation: bounceIn 2s;
+  }
+
+  .text-animate-bounce-in{
+    opacity: 1;
+    animation: bounceInLeft 3s backwards;
+    animation-delay: 1s;
+  }
+
+  .rubberBand{
+    animation: rubberBand 1s;
+  }
+
+  .headShake{
+    animation: headShake 2s forwards ;
+  }
+
+  .blackFade{
+    animation: blackFade ;
+  }
+
+  .fadeInRightBig{
+    animation: fadeInRightBig 2s forwards;
+  }
+
+  .heartBeat{
+    animation: heartBeat 2s forwards;
+  }
+
+  .shakeY{
+    animation: shakeY 4s forwards 0s infinite;
+  }
+
+  .fadeInDown{
+    animation: fadeInDown 1s 2.5s;
+  }
+
+  .pulseIn{
+    animation: pulse 1s infinite;
+  }
+
+  .fadeInLeft{
+    opacity: 0;
+    animation: fadeInLeft 2s forwards;
+  }
+
+  .fadeInRight{
+    opacity: 0;
+    animation: fadeInRight 2s forwards;
+  }
+
+
+
+  @keyframes blackFade {
+    0%{background-color: rgb(0, 0, 0);}
+    25%{background-color: rgb(0, 0, 0);}
+    50%{background-color: rgb(0, 0, 0);}
+    75%{background-color: rgb(0, 0, 0);}
+    100%{background-color: #222831;}
+}

@@ -1,0 +1,129 @@
+#contact-page{
+    margin: 2rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .text-hover-animate:hover{
+        color: #fff;
+    }
+
+    .back-arrow{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size:4vmax;
+        letter-spacing: 0.3rem;
+        width: 100%;
+
+        ._8{
+            margin-left: 2vw;
+        }
+    }
+    
+    .contact-container{
+        width: 50%;
+        .contact-detail{
+            font-size:2.2vmax;
+            display: flex;
+            align-items: center;
+            
+            a{
+            text-decoration: none;
+            margin-left: 1rem;
+            }
+            svg{
+                width: 10%;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    #emailForm{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        opacity: 0;
+        animation-delay: 1s;
+
+        textarea{
+            width: 95%;
+            height: 8rem;
+            padding-top: 1rem;
+
+        }
+
+        input{
+            width: 95%;
+            height: 3rem;
+        }
+
+        input, textarea{
+            font-size: 1rem;
+            padding-left: 0.8rem;
+            font-family:'CoolveticaRg-Regular2';
+            background-color: rgba($color: #00ADB5, $alpha: 0.5);
+            border: none;
+            margin-bottom: 1rem;
+            color: #fff;
+
+            &::placeholder{
+                color: darkgray;
+            }
+            &:focus{
+                background-color: rgba($color: #00ADB5, $alpha: 1);
+                animation: headShake 2s forwards ;
+            }
+        }
+
+        .input-half{
+            width: 50% !important;
+            input{
+                width: 90%;
+            }
+        }
+
+        .form-control{
+            width: 100%;
+        }
+
+        .form-btn{
+            letter-spacing: 0.2rem;
+            width: 7rem;
+            height: 3rem;
+            font-family:'CoolveticaRg-Regular2';
+            border: none;
+            padding: 0.5rem 1rem;
+            background-color: rgba($color: #00ADB5, $alpha: 0.5);
+            cursor: pointer;
+
+            &:nth-child(2){
+                margin-left: 1rem;
+            }
+
+            &:hover{
+                background-color: rgba($color: #00ADB5, $alpha: 1);
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:1023px) {
+
+    #contact-page{
+        margin: 1rem;
+    
+        #emailForm, .contact-container{
+            width: 100% !important;
+        }
+
+        .contact-container{
+            margin-bottom: 2rem;
+        }
+
+    }
+}

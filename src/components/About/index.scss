@@ -1,0 +1,304 @@
+
+.about-page{
+
+    margin:0 5rem;
+    
+    h1{
+        font-size:2.5rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .header{
+        margin-top: 4rem;
+        width: 100%;
+        height: 100vh;
+    }
+    .sub-header{
+        width: 75%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img, p{
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            animation-delay: 3s;
+        }
+        img{
+            width: 25%;
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .text-hover-animate{
+        &:hover{
+            color:#ffff;
+        }
+    }
+    
+    .body{
+        display: flex;
+        flex-direction: column;
+
+        #hobbies, #skills, #education, #experience{
+            margin-top:12rem;
+            width: 75%;
+        }
+
+        #experience{
+            .experience-content{
+                position: relative;
+                padding: 2rem;
+                box-shadow: -2rem 2rem 4rem black;
+                background-image: url('../../assets/images/bg-exp.jpg');
+                background-position: -20% 35%;
+                background-size: cover;
+                z-index: -1;
+
+
+                .blur{
+                    background-color: rgba($color: #000000, $alpha: 0.7);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+
+                }
+
+                h2,h3{
+                    letter-spacing: 1px;
+                }
+                .img-container{
+                    display: flex;
+                    span{
+                        height: 8rem;
+                        border-top: 2rem solid transparent;
+                        border-left: 23rem solid #fff;
+                        border-bottom: 2rem solid transparent;
+                    }
+                    img{
+                        position: absolute;
+                        width: 35%;
+                    }
+                }
+            }
+            
+        }
+
+        #hobbies{
+            display: flex;
+            flex-direction: column;
+            h1{
+                margin: 0;
+            }
+
+            div{
+                margin-top: 2rem;
+                height: 50vh;
+                position: relative;
+
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                background-position: 50% 50%;
+                
+                margin-bottom: 2rem;
+
+                &:nth-child(2){
+                    background-image: url('../../assets/images/gaming2.jpg');
+                }
+
+                &:nth-child(3){
+                    background-image: url('../../assets/images/guitar.jpg');
+                }
+
+                &:nth-child(4){
+                    background-position-x:200%!important;
+                    background-image: url('../../assets/images/cycling.jpg');
+                }
+                
+                small{
+                    color: white;
+                    opacity: 0.8;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                span{
+                    color: #00ADB5;
+                    background: rgba($color: #222831, $alpha: 0.5);
+                    font-size: 1.2rem;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    padding: 1rem;
+                    width: 50%;
+                    transition: transform 1s ease;               
+                }
+
+                &:hover{
+                    span{
+                        transform: translateY(-2rem);
+                        background: rgba($color: #222831, $alpha: 0.7);
+                    }               
+                }
+            }
+        }
+
+        #education{
+            .slider{
+                height: fit-content;
+            }
+
+
+
+        }
+
+        #skills{
+
+            .cards-container{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+
+                .card{
+                    flex-direction: column;
+                    align-items: center;      
+                    margin: 0 2rem 2rem 0;
+
+
+                    img{
+                        width: 10rem;
+                        transition: transform 1s ease;
+                    }
+                    
+                    div{
+                        margin-top: 2rem;
+                        display: none;
+                    }
+                    
+                    span{
+                        display: flex;
+                        flex-direction: colum;
+                        align-items: center;
+                        margin: 0 50vw 1rem 50vw;
+                        svg{
+                            font-size: 1.5rem;
+                            &:first-child{
+                                margin-left:2rem;
+                            }
+                        }            
+                    }
+                    
+
+                    p{
+                        font-size: 1.2rem;
+                        margin: 0 20vw;
+                        line-height: 2rem;
+                    }
+                    
+                    img:hover{
+                        transform: translateY(-2rem);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:1023px) {
+    .about-page{
+        margin:20vh 1rem 2vh 1rem;
+        text-align: center ;
+        
+        .sub-header{
+            width: 100%;
+            img{
+                width: 70%;
+            }
+        }
+
+        .body{
+
+            #hobbies,#skills,#education,#experience{
+                width: 100%;
+            }
+            
+            #experience{
+                .experience-content{
+                    .img-container{
+                        span{
+                            border-left:75vw solid #fff;
+                        }
+
+                        img{
+                            width: 75%;
+
+                        }
+                    }
+                }
+
+
+            }
+
+            #hobbies{
+                div{
+                    height: 80vh;
+
+                    &:nth-child(4){
+                        background-position:75%!important;
+                    }
+                        
+                    span{
+                        bottom: 0;
+                        padding:0rem;
+                        width: 100%;
+                    }
+    
+                    &:hover{
+                        span{
+                            transform: translateY(-2rem);
+                            background: rgba($color: #222831, $alpha: 0.7);
+                        }               
+                    }
+                }
+            }
+
+
+            #skills{
+                .cards-container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+
+                    .card{
+                        font-size: 1rem;
+                        margin: 0rem;
+                        overflow-x: hidden;
+                        img{
+                            margin: 2rem;
+                        }
+                        p{
+                            margin: 0 40vw;
+                        }
+                    }
+                }
+            }
+
+        }
+
+       
+
+    }
+}

@@ -1,0 +1,82 @@
+body{
+    animation: blackFade ;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+
+#home_page{
+
+    overflow: hidden;
+
+
+.logo{
+    position: absolute;
+    top: 0vh;
+    right:25vw;
+}
+
+.text-zone{
+    width: 50vw;
+    padding:5vw 0 0 10vw;
+    overflow-x: hidden;
+
+    ._3{
+        margin-left: 1.2rem;
+    }
+    
+    h1, h2{
+        font-family: 'BungeeShade-Regular';
+        font-size:4vmax;        
+        text-shadow: 0px 15px 0.4rem black;
+        display: inline-block;
+
+        .textzone-highlight{
+            border-bottom: 1px solid orange;
+            .text-highlight{
+                margin-left:1rem ;
+                color:rgba($color: orange, $alpha: 0.8);
+                opacity:0;
+            
+                animation: bounceIn 10s forwards;
+                animation-delay: 4s;
+            }
+            
+        }
+        
+        div{
+            font-size: 2vmax;
+            font-weight: 1;
+            font-family: 'CoolveticaRg-Regular2';
+            letter-spacing: 3px;
+            margin-top: 0.5rem;
+        }
+    }
+}
+
+@keyframes blackFade {
+    0%{background-color: rgb(0, 0, 0);}
+    25%{background-color: rgb(0, 0, 0);}
+    50%{background-color: rgb(0, 0, 0);}
+    75%{background-color: rgb(0, 0, 0);}
+    100%{background-color: #222831;}
+}
+
+@media only screen and (max-width:1023px){
+    .text-zone{
+        margin: 10vh auto 0 auto;
+        text-align: center;
+        width: 100vw;
+        padding: 0;
+
+        h1,h2{
+            font-size: 2rem;
+        }
+    }
+    
+    .logo{
+        top: 40vh;
+        right: 35%;
+    }
+  }
+}

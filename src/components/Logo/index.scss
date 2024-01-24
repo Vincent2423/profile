@@ -1,0 +1,36 @@
+.logo{
+    font-family: 'CoolveticaRg-Regular2';
+    color:#00ADB5;
+    text-shadow: -1rem 1rem 0 orange;
+    z-index: -1;
+    font-size:35vmax;
+    width: fit-content;
+    padding-right:0.4rem;
+    padding-left: 2rem;
+    margin: 0;
+}
+
+.animate-logo{
+    animation: rotateAnimation;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateAnimation {
+    0%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(360deg);}
+}
+
+.animateIn-logo{
+    opacity: 0;
+    animation: pulseIn;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+@keyframes pulseIn {
+    0%{text-shadow: -0.2rem 0rem 0 rgba($color: orange, $alpha: 0); opacity: 0;}
+    50%{text-shadow: 0rem 0rem 5rem rgba($color: orange, $alpha: 1); opacity: 1;}
+    100%{text-shadow: -1rem 1rem 0rem rgba($color: orange, $alpha: 1); opacity: 1;}
+}

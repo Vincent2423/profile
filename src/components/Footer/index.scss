@@ -1,0 +1,42 @@
+.footer{
+    // margin-top: 15vh;
+    position:absolute;
+    bottom:0;
+    width: 75%;
+    left: 15vw;
+    display: flex;
+    justify-content: center;
+    border-top:1px solid rgba($color: orange, $alpha: 0.2);
+
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+
+        li{
+            list-style: none;
+            margin-left: 1rem;
+            font-size: 2rem;
+            
+            
+            &:first-child{
+                margin-left: 0rem;
+            }
+
+            a{  
+                color: #393E46;
+                &:hover{
+                    cursor:pointer;
+                    color: orange;
+                }
+            }
+            
+        }
+    }
+}
+
+.page-footer{
+    position:relative !important;
+    margin-top: 15vh;
+}

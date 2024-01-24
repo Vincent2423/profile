@@ -1,0 +1,376 @@
+
+#portfolio_page{
+    h1,h4{
+        letter-spacing: 0.2rem;
+    }
+    
+    .header{
+        text-align: center;
+        h1{
+            font-size: 8rem;
+            margin-bottom: 0;
+        }
+
+        .sub-header{
+            opacity: 0;
+            animation: bounceIn 2s forwards;
+            animation-delay: 1s;
+        }
+    }
+
+    .text-hover-animate:hover{
+        color: #fff;
+    }
+
+    .parallax-layer-content{
+        &:first-child{
+            padding-left: 0;
+        }
+    }
+
+
+    #navUp,#topNav{
+        z-index: 100;
+        width: 100% !important;
+        height: 10% !important;
+        margin-top: 1rem;
+        font-size: 3rem;
+        a{
+            text-decoration: none;
+            margin: 5rem 1rem 0 0 ;
+        }
+    }
+
+    // #bgShowcase{
+    //     animation: slideInDown 2s;
+    //     z-index: -100;
+
+    // }
+
+    #navUp a:hover::after{
+        content: "Back";
+    }
+
+    .project-introduction{
+        display: flex;
+
+        position: relative;
+        h1{
+            font-size: 4rem;
+        }
+
+        .introduction-text-area{
+            img{
+                width: 20%;
+            }
+
+            width: 100%;
+            height:100vh;
+            
+            .shape{
+                position: absolute;
+                bottom: 0;
+                z-index: -1;
+                border-top: 85vh solid transparent;
+                border-left: 60vw solid #222831;
+                box-shadow: 0 20px 0 #222831;
+            }
+
+            h4{
+                font-size: 1.3rem;
+                width:40%;
+                margin-left: 2rem;
+            }
+
+            div{
+                position: absolute;
+                bottom: 0;
+            }
+            
+        }
+        
+    }
+
+    .introduction{
+
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 2fr 2fr;
+            a{
+                position: relative;
+                margin: 1rem;
+                padding: 4rem 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #fff;
+                text-align: center;
+                text-decoration: none;
+                z-index: 1;
+                h2{
+                    letter-spacing: 0.1rem;
+                    width: 75%;
+                }
+
+                &:hover{
+                    color: orange;
+                    h2{
+                        background-color: rgba($color: #000, $alpha: 0.4);
+                        animation: heartBeat 2s forwards;
+                    }
+                    span{
+                        animation: fadeIn 3s forwards;
+                        z-index: -1;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-size: cover;
+                        filter: blur(3px); 
+                    }
+                }
+
+                &:first-child{
+                    span{                 
+                        background-image: url('../../assets/images/dog-qr.jpg');
+                        background-position: 0% center;
+                    }
+                }
+
+                &:nth-child(2){
+                    span{                 
+                        background-image: url('../../assets/images/sms-notif.jpg') ;
+                    }
+                }
+
+                &:nth-child(3){
+                    span{                 
+                        background-image: url('../../assets/images/track.jpg');
+                        background-position: 0% center;
+
+                    }
+                }
+
+                &:nth-child(4){
+                    span{                 
+                        background-image: url('../../assets/images/pet-gallery.jpg');
+                    }
+                }
+                
+                &:nth-child(5){
+                    span{                 
+                        background-image: url('../../assets/images/map-nearby.jpg');
+                    }
+                }
+
+                &:nth-child(6){
+                    span{                 
+                        background-image: url('../../assets/images/other-features.jpg');
+                        background-position: 0% center;
+
+                    }
+                }
+
+            }
+        }
+
+        h1{
+            font-size: 4rem;
+        }
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .features-showcase{
+        padding: 2rem 1rem;
+        background: #222831;
+        border-radius: 2rem 2rem 2rem;
+        box-shadow: 0rem -2rem 2rem orange;
+        .showcase-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            div{
+                &:nth-child(1){
+                    width: 45%;
+                    padding-right: 1rem;
+                }
+
+                &:nth-child(2){
+                    width: 50%;
+                }
+                
+            }
+
+            p{
+                font-size: 1.5rem;
+                width: 100%;
+            }
+
+            img{
+                width:50%;
+                height: 20%;
+            }
+
+            .video-container{
+                // width: 100%;
+                // padding-top: 56.25%;
+                // position: relative;
+                
+                video{
+                    width: 100%;
+                    aspect-ratio: 16/9;
+                    background-color: #000;
+                    // height: 100%;
+                    // position: absolute;
+                    // top: 0;
+                    // left: 0;
+                }
+            }
+
+        }
+    }
+
+    #rocketship{
+        width: 25%;
+        margin-top: 10rem;
+        animation: shakeY 4s forwards 0s infinite;
+    }
+    
+    .tools-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            margin:5rem 0;
+            font-size: 4rem;
+
+        }
+
+        .tools-grid{
+            width: 50%;
+            grid-template-columns:1fr 1fr;     
+
+            .box{
+                margin-bottom: 1rem;
+
+                img{
+                    width: 25%;
+                }
+            }
+        }
+
+        svg{
+            margin-top: 5rem;
+            font-size: 4rem;
+        }
+
+    }
+
+
+}
+
+@media only screen and (max-width:1023px) {
+    
+    #portfolio_page{
+
+        #topNav{
+            margin-top: 1rem;
+            font-size: 2rem;
+        }
+
+        #bgShowcase{
+            filter: blur(1px) !important;
+        }
+
+        .header{
+            margin-top: 5rem;
+            h1{
+                font-size: 3rem;
+            }
+        }
+
+        
+        .project-introduction{
+            
+            .introduction-text-area{
+                text-align: center;
+                img{
+                    width: 60%;
+                }
+                div h4{
+                    background: rgba($color: black, $alpha: 0.5);
+                    margin: 0;
+                    width: 100%;
+                }
+            }
+
+
+            .shape{
+                display: none;
+            }
+        }
+
+    }
+    
+    .introduction{
+        h1{
+            font-size: 3rem !important;
+        }
+        
+        .grid{
+            grid-template-columns: 1fr 1fr !important;
+
+            a{
+                font-size: 0.8rem;
+                padding: 1rem !important;
+                margin: 6px !important;
+
+            }
+        }
+    }
+
+    .showcase-content{
+        div{
+            text-align: center;
+            p{
+                font-size: 1rem !important;
+
+            }
+            width: 100% !important;
+        }
+    }
+
+
+    .tools-container{
+        h1{
+            font-size: 2.5rem !important;
+            margin-top: 0 !important;
+        }
+    }
+
+    .tools-grid{
+        width: 100% !important;
+        
+        div{
+            text-align: center !important;
+            margin-bottom: 2rem !important;
+            
+            img{
+                width: 9rem !important;
+            }
+        }
+    }
+
+    #rocketship{
+        display: none;
+    }
+}
+

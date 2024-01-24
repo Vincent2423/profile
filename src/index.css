@@ -1,0 +1,10 @@
+body{
+    background: #222831;
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth !important;
+    font-family: 'CoolveticaRg-Regular', 'BebasNeue-Regular';
+    letter-spacing: 0.1rem;
+}
