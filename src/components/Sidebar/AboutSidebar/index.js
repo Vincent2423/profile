@@ -64,7 +64,7 @@ const AboutSidebar = () =>{
 
 
                         <li>
-                            <Link to='/contact' className='text-primary'>
+                            <Link to='/' className='text-primary'>
                                 <FontAwesomeIcon icon={faArrowAltCircleLeft} color='text-primary'/>
                                 Back
                             </Link>

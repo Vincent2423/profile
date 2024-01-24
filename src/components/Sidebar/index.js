@@ -32,17 +32,17 @@ const Sidebar = () =>{
                 <div ref={sidebarRef} id="sidebar" className='sidebar '>
                     <ul>
                         <li>
-                            <Link to='/vincent-portfolio/about' className='text-primary'>
+                            <Link to='/about' className='text-primary'>
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link to='/vincent-portfolio/portfolio' className='text-primary'>
+                            <Link to='/portfolio' className='text-primary'>
                                 Portfolio
                             </Link>
                         </li>
                         <li>
-                            <Link to='/vincent-portfolio/contact' className='text-primary'>
+                            <Link to='/contact' className='text-primary'>
                                 Contact
                             </Link>
                         </li>
