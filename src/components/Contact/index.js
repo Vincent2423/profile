@@ -12,7 +12,7 @@ import emailJs from '@emailjs/browser';
 const Contact = () =>{
 
     const contactStr = ['C','O','N','T','A','C','T',], meStr =  ['M','E'];
-
+    document.title="Vincent | Contact "
     const [letterClass, setLetterClass] = useState("text-animate");
 
     const refForm = useRef();
@@ -49,7 +49,7 @@ const Contact = () =>{
     return(
         <>
             <div id='contact-page'>
-                <Link to='/' className='text-primary back-arrow'>
+                <Link to='/home' className='text-primary back-arrow'>
                     <FontAwesomeIcon icon={faArrowLeftLong}/>
                 </Link>
                 <h1 className="text-highlight" >
