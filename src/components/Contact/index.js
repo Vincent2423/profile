@@ -49,7 +49,7 @@ const Contact = () =>{
     return(
         <>
             <div id='contact-page'>
-                <Link to='/home' className='text-primary back-arrow'>
+                <Link to='/vincent-profile' className='text-primary back-arrow'>
                     <FontAwesomeIcon icon={faArrowLeftLong}/>
                 </Link>
                 <h1 className="text-highlight" >

@@ -69,7 +69,7 @@ const Portfolio = () =>{
                 <Parallax pages={16} className='parallax-container'>
 
                 <ParallaxLayer id='topNav' className='text-end'>
-                    <Link to='/' className='text-primary'>
+                    <Link to='/vincent-profile' className='text-primary'>
                         <FontAwesomeIcon icon={faHome}/>
                     </Link>
                     </ParallaxLayer>
