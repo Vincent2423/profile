@@ -237,6 +237,7 @@
     }
 
     #rocketship{
+        user-select: none;
         width: 25%;
         margin-top: 10rem;
         animation: shakeY 4s forwards 0s infinite;

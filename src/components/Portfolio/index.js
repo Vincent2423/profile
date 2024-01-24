@@ -255,7 +255,7 @@ const Portfolio = () =>{
                     </ParallaxLayer>
 
                     <ParallaxLayer className='text-center' offset={13} sticky={{start:13, end:16, zIndex:`-1`}}>
-                        <img id='rocketship' src={rocketShip}/>
+                        <img id='rocketship' draggable="false" src={rocketShip}/>
                     </ParallaxLayer>
                     
                     <ParallaxLayer offset={13} factor={4} speed={0.5} style={{filter:'blur(5px)',backgroundImage:`url(${space})`, backgroundRepeat:'repeatY',zIndex:`-1`}}>
