@@ -8,22 +8,22 @@ import './index.css'
 
 
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <BrowserRouter basename="/vincent-portfolio">
-//       <App />
-//     </BrowserRouter>
-//     ,
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <HashRouter>
-        <App />
-    </HashRouter>
+ReactDOM.render(
+  <React.StrictMode>
+    <BrowserRouter basename="/vincent-portfolio">
+      <App />
+    </BrowserRouter>
+    ,
+  </React.StrictMode>,
+  document.getElementById('root')
 );
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//     <HashRouter>
+//         <App />
+//     </HashRouter>
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
