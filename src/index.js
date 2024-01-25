@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter basename="/vincent-portfolio">
       <App />
-    </BrowserRouter>
+    </BrowserRouter>  
     ,
   </React.StrictMode>,
   document.getElementById('root')
