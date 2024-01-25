@@ -73,10 +73,13 @@ const About = () =>{
                 subElement.classList.remove('d-block');
                 ele.classList.remove('pop-card', 'fadeout');
             }, 900);
+            document.querySelector(".navbar-container").style.display = "block";
+
         }
         else{
             subElement.classList.add('d-block');
             ele.classList.add('pop-card');
+            document.querySelector(".navbar-container").style.display = "none";
         }
     }
 
@@ -88,10 +91,10 @@ const About = () =>{
         text:"I bring a solid foundation in styling and layout techniques to enhance the visual appeal and user experience of web pages. Also capable of using SCSS."}},
 
     {id:'skill-2', icon: jsLogo, description: {level:3, 
-        text: "I have core understanding of the language's core concepts and capabilities. Experienced implementing client-side functionality to enhance user experiences. Capable of doing DOM Manipulation, applied Object-Oriented Programming(OOP), event handling, arrow functions, AJAX, and API usage."}},
+        text: "I understand language's core concepts and capabilities for web applications. Experienced implementing client-side functionality to enhance user experiences. Capable of doing DOM Manipulation, applied Object-Oriented Programming(OOP), event handling, arrow functions, AJAX, and API usage."}},
 
     {id:'skill-3', icon: pythonLogo, description: {level:2.5, 
-        text:'My skills in Python allows me to contribute to various programming tasks and software development projects as it is what I used in my capstone project. Capable of doing data structures, web development and applied Object-Oriented Programming(OOP).'}},
+        text:'My skills in Python allows me to contribute to various programming tasks and software development projects as it is what I used in my capstone project. Capable of doing data structures, web development and applied Object-Oriented Programming (OOP).'}},
         
     {id:'skill-4', icon:aspNetLogo, description: {level:2.5, 
         text: "I have a foundational understanding of web development using the ASP.NET framework as it was used for my internship in College. Capable of creating web application, debugging and testing. I also have understanding of MVC, Razor pages, N-tier architecture in this framework. I am committed to continuous learning and staying updated on advancements in ASP.NET and web development technologies."}},
