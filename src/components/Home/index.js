@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from '../Logo';
 import './index.scss';
-import Sidebar from '../Sidebar';
-import Loader from 'react-loaders';
+import Navbar from '../Navbar';
 const Home = () =>{
 
     const [letterClass, setLetterClass] = useState('text-animate-bounce-in');
@@ -29,7 +28,7 @@ const Home = () =>{
     return(
         
         <div id='home_page' className='homepage'>
-            <Sidebar />
+            <Navbar />
             <Logo logoClass={logoClass}/>
             <div className='text-zone'>
                 <h1 className={`text-animate-bounce-in text-primary`}>

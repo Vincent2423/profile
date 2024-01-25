@@ -41,12 +41,6 @@
         }
     }
 
-    // #bgShowcase{
-    //     animation: slideInDown 2s;
-    //     z-index: -100;
-
-    // }
-
     #navUp a:hover::after{
         content: "Back";
     }
@@ -218,18 +212,11 @@
             }
 
             .video-container{
-                // width: 100%;
-                // padding-top: 56.25%;
-                // position: relative;
                 
                 video{
                     width: 100%;
                     aspect-ratio: 16/9;
                     background-color: #000;
-                    // height: 100%;
-                    // position: absolute;
-                    // top: 0;
-                    // left: 0;
                 }
             }
 

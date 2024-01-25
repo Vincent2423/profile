@@ -287,6 +287,9 @@
                         margin: 0rem;
                         overflow-x: hidden;
                         img{
+                            &:hover{
+                                transform: translateY(0);
+                            }
                             margin: 2rem;
                         }
                         p{

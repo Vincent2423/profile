@@ -1,6 +1,6 @@
 import './index.scss';
-import AboutSidebar from '../Sidebar/AboutSidebar';
-import { useEffect, useRef, useState } from 'react';
+import AboutNavbar from '../Navbar/AboutNavbar';
+import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Slider from '../Slider';
 
@@ -131,7 +131,7 @@ const About = () =>{
 
     return (
         <>  
-            <AboutSidebar />
+            <AboutNavbar />
             <div className="container about-page">
                 <div className="header">
                     <h1 className="text-highlight"><span className='text-primary'>&gt;</span>
