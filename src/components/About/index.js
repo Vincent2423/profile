@@ -29,7 +29,7 @@ const About = () =>{
 
 
     useEffect(()=>{
-        document.querySelector(".footer").classList.add("page-footer");
+        document.querySelector(".footer").classList.add("page-footer", "d-flex");
         
         document.title = "About | Vincent";
         const targets = document.querySelectorAll("section");
@@ -82,40 +82,40 @@ const About = () =>{
 
     const data = [
     {id:'skill-0', icon: htmlLogo, description: {level:3.5, 
-        text: 'I learnt this along with CSS and JS during my Senior highschool and College. I created a simple wallpaper website using JS, CSS and this during my senior highschool and I used it on the Capstone project in my College. '}},
+        text: "I possess a solid understanding of the fundamental principles that underpin web development. My expertise in HTML allows me to create well-structured and semantically meaningful web pages, contributing to a positive user experience."}},
 
     {id:'skill-1', icon: cssLogo, description: {level:3, 
-        text:'CSS is fun to use although it is quite hard to debug as it only return visual errors. I also discovered the use of the SCSS and how to make the design of your web using this. I created a simple wallpaper website using JS, CSS and this during my senior highschool and I used it on the Capstone project in my College. '}},
+        text:"I bring a solid foundation in styling and layout techniques to enhance the visual appeal and user experience of web pages. Also capable of using SCSS."}},
 
     {id:'skill-2', icon: jsLogo, description: {level:3, 
-        text: 'This is the first programming language I have learned and It is quite hard at first but I quite love this programming language because of its usage in web applications nowadays. I created a simple wallpaper website using HTML, CSS and this during my senior highschool and I used it on the Capstone project in my College'}},
+        text: "I have core understanding of the language's core concepts and capabilities. Experienced implementing client-side functionality to enhance user experiences. Capable of doing DOM Manipulation, applied Object-Oriented Programming(OOP), event handling, arrow functions, AJAX, and API usage."}},
 
     {id:'skill-3', icon: pythonLogo, description: {level:2.5, 
-        text:'I also love python, I wished I learn this first before other programming languages. This programming language is one the top programming language out there although it has a GLI but still this programming language is no doubt to be very easy to use. I used this for my backend on my Capstone project. '}},
+        text:'My skills in Python allows me to contribute to various programming tasks and software development projects as it is what I used in my capstone project. Capable of doing data structures, web development and applied Object-Oriented Programming(OOP).'}},
         
     {id:'skill-4', icon:aspNetLogo, description: {level:2.5, 
-        text: "I learn the basics of this in my Senior Highschool and have upskilled on this during my internship in College. This web framework is very good and I created simple chatting web application using this."}},
+        text: "I have a foundational understanding of web development using the ASP.NET framework as it was used for my internship in College. Capable of creating web application, debugging and testing. I also have understanding of MVC, Razor pages, N-tier architecture in this framework. I am committed to continuous learning and staying updated on advancements in ASP.NET and web development technologies."}},
 
     {id:'skill-5', icon:bootstrapLogo, description: {level:3.5, 
-        text: "Bootstrap helped me so much in my IT capstone during college. It was easy to learn and I have fun using it in my capstone project. This is preferred for fullstack developers as it makes your front-end design development much faster and it makes your design responsive."}},
+        text: "I bring a solid foundation in leveraging this popular front-end framework for building responsive and visually appealing websites. My expertise allows me to efficiently create layouts, components, and user interfaces with enhanced responsiveness across various devices. I have experienced using this in my capstone project and during internship in college."}},
 
-    {id:'skill-6', icon:cSharpLogo, description: {level: 2.5, 
-        text: "This programming language is currently my favorite programming language, for me this programming language really emphasize the concept of OOP. I learned this programming language in Senior highschool and I upskilled this during my internship. I am currently continuously upskilling on this programming language."}},
+    {id:'skill-6', icon:cSharpLogo, description: {level: 3, 
+        text: "I have core understanding of this programming language enabling me to contribute effectively to software development projects. I have experienced using this during my internship in college. Capable of doing basic multi-threading, effective and readable functions or methods, data structures, and applied Object-Oriented Programming."}},
 
     {id:'skill-7', icon:djangoLogo, description: {level: 3, 
-        text: "Django for me is by far the best fullstack web framework out there. I used this web framework in my Capstone project and it was fairly easy to use because it's programming language is python. The web development is very fast using this framework because it mostly handles already other backend functionality of your web application such as security, login, and others."}},
+        text: "I have understanding of core functions of this powerful tool for building robust and scalable web applications. I have experienced using this web framework in my capstone project. Capable and has solid understanding of Model-View-Template (MVT), Object-Relational Mapping, Forms, Admin interface, and static files and media handling."}},
 
     {id:'skill-8', icon:jqueryLogo, description: {level: 1.5, 
-        text: "I have learned the basics of this during my senior highschool. I used this JS library in the simple web that I created during my senior highschool. "}},
+        text: "As an individual at a beginner level in jQuery, I possess a foundational understanding of this JavaScript library and can apply basic concepts."}},
 
     {id:'skill-9', icon:mySqlLogo, description: {level: 3, 
-        text: "I learned this during college and it was quite easy to learn the basics of this database management system and especially if you learned sql scripting beforehand. I used this for my Capstone project and it's use simplicity saves me a lot of time. "}},
+        text: "I have knowledge of relational database management, enabling me to design, implement, and manage databases effectively. Capable of doing intermediate SQL queries."}},
 
-    {id:'skill-10', icon:postgreSqlLogo, description: {level: 1.5, 
-        text: "I self studied this database management system because I have searched that it fits for Django framework which is why I learned this DBMS. "}},
+    {id:'skill-10', icon:postgreSqlLogo, description: {level: 2.5, 
+        text: "I have knowledge of relational database management, enabling me to design, implement, and manage databases effectively. Experienced using this on capstone project."}},
         
     {id:'skill-11', icon:reactLogo, description: {level: 2, 
-        text: "I found out and learned this because I find it very popular amongst companies which is why I find it essential to learn this skill. This is what I used in creating this Web Profile and it was fun and react has interesting packages for animations like parallax that I surely used for this. "}},        
+        text: "Capable of building user interfaces and web applications using this popular JavaScript library. My understanding of this framework enables me to create interactive and dynamic front-end experiences, contributing effectively to web projects."}},        
 
     ]
 

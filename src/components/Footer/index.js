@@ -6,7 +6,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Footer = () =>{
     return(
         <>
-            <div className='footer'>
+            <div className='footer d-flex'>
                 <ul>
                     <li>
                         <a target="_blank" rel="noreferrer" href="https://github.com/vinzent24">

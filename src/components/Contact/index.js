@@ -36,7 +36,7 @@ const Contact = () =>{
     }
     
     useEffect(()=>{
-        document.querySelector(".footer").classList.add("page-footer");
+        document.querySelector(".footer").classList.add("page-footer", "d-flex");
 
         document.body.classList.add("overflowX-hidden");
         setTimeout(()=>{

@@ -9,8 +9,8 @@ const Home = () =>{
     const [letterClass, setLetterClass] = useState('text-animate-bounce-in');
 
     useEffect(()=>{
-
         document.querySelector(".footer").classList.remove("page-footer");
+        document.querySelector(".footer").classList.add("d-flex");
 
         document.title = "Home | Vincent";
         document.body.classList.add("overflowX-hidden");

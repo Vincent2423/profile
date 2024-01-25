@@ -34,8 +34,9 @@ const Portfolio = () =>{
     
     useEffect(()=>{
         document.title = "Portfolio | Vincent";
-        document.getElementsByClassName("footer")[0].style.display = "none";
-        
+        document.querySelector(".footer").classList.add("d-none");
+        document.querySelector(".footer").classList.remove("d-flex");
+
 
         const targets = document.querySelectorAll(".observe-element");
 
