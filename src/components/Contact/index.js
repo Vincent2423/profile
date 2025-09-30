@@ -60,7 +60,7 @@ const Contact = () =>{
                 <div className='contact-container fadeIn-bottomRight'>
                     <div className='text-primary contact-detail'>
                         <FontAwesomeIcon icon={faGithubSquare} color='white'/>
-                        <a target='_blank' href="https://github.com/vinzent24" className='text-primary'>
+                        <a target='_blank' href="https://github.com/Vincent2423" className='text-primary'>
                             <h3>Check me out on Github!</h3>
                         </a>
                     </div >
