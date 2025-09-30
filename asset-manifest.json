@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.4fb1a95c.css",
-    "main.js": "/profile/static/js/main.62cbe1ed.js",
+    "main.css": "/profile/static/css/main.f3816527.css",
+    "main.js": "/profile/static/js/main.c1b1fe37.js",
     "static/js/787.13248e57.chunk.js": "/profile/static/js/787.13248e57.chunk.js",
     "static/media/other-features.mp4": "/profile/static/media/other-features.2682fd55554baabe0fdb.mp4",
     "static/media/scanned-qr-location.mp4": "/profile/static/media/scanned-qr-location.808c1a60ae3488faf3ac.mp4",
@@ -22,24 +22,30 @@
     "static/media/man1.png": "/profile/static/media/man1.75304c7040c9a5c118c8.png",
     "static/media/drhs.png": "/profile/static/media/drhs.eb99ba4634e41737ae77.png",
     "static/media/BungeeShade-Regular.ttf": "/profile/static/media/BungeeShade-Regular.65113b6b47a5bd986255.ttf",
-    "static/media/react.png": "/profile/static/media/react.81ed438b18e24116794d.png",
+    "static/media/bg-exp2.jpg": "/profile/static/media/bg-exp2.275eb528bda7d1fe8996.jpg",
     "static/media/rocket.png": "/profile/static/media/rocket.75484b10a292dbc35127.png",
     "static/media/guitar.jpg": "/profile/static/media/guitar.7849ebb03f00deda7a6c.jpg",
     "static/media/dog-qr.jpg": "/profile/static/media/dog-qr.1a9c3c82a7a1d566938e.jpg",
+    "static/media/angularLogo.png": "/profile/static/media/angularLogo.d0c8ed3a16d1171b688a.png",
+    "static/media/sqlserverlogo.png": "/profile/static/media/sqlserverlogo.446294a3a8f9b7c2a830.png",
     "static/media/BebasNeue-Regular.ttf": "/profile/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/realpageLogo.png": "/profile/static/media/realpageLogo.16215c494dc6a26e1769.png",
+    "static/media/html.png": "/profile/static/media/html.fd37efa5e5b40856428d.png",
+    "static/media/dotNetLogo.png": "/profile/static/media/dotNetLogo.ee3b5f1e5b853d7ee368.png",
     "static/media/paw3.png": "/profile/static/media/paw3.c54db3b12162198d409f.png",
-    "static/media/scaleUpInc.png": "/profile/static/media/scaleUpInc.e59b31830b265c282821.png",
+    "static/media/tsLogo.png": "/profile/static/media/tsLogo.27d81a586e4448a5e671.png",
+    "static/media/scaleUpIncLogo.png": "/profile/static/media/scaleUpIncLogo.b1a972b485e3f5aa0b6e.png",
+    "static/media/css.png": "/profile/static/media/css.c0858c53c553b56f9df7.png",
     "static/media/CoolveticaRg-Regular.woff": "/profile/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/asp-net.png": "/profile/static/media/asp-net.92243faca8149af227be.png",
     "static/media/postgresql.png": "/profile/static/media/postgresql.a8c2fa06ae0817a837f5.png",
     "static/media/CoolveticaRg-Regular.woff2": "/profile/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/profile/index.html",
-    "main.4fb1a95c.css.map": "/profile/static/css/main.4fb1a95c.css.map",
-    "main.62cbe1ed.js.map": "/profile/static/js/main.62cbe1ed.js.map",
+    "main.f3816527.css.map": "/profile/static/css/main.f3816527.css.map",
+    "main.c1b1fe37.js.map": "/profile/static/js/main.c1b1fe37.js.map",
     "787.13248e57.chunk.js.map": "/profile/static/js/787.13248e57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fb1a95c.css",
-    "static/js/main.62cbe1ed.js"
+    "static/css/main.f3816527.css",
+    "static/js/main.c1b1fe37.js"
   ]
 }
